@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+a {
+    color: #0c0050
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #17212b;
+    height: 75px;
+    padding: 0 20px;
+
+}
+
+.title_str {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.container-head {
+    height: 75px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: calc(100vh - 175px);
+    padding: 0 20px;
+}
+
+footer {
+    color: #fff;
+    background-color: #17212b;
+    height: 100px;
+    padding: 0 20px;
+
+}
+
+.container-footer {
+    height: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input:focus, input:active {
+    outline-color: #b3c2cd;
+}
+
+.converter {
+    border: 1px dashed #d1d1d1;
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.converter input, .converter select {
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px 10px 0;
+    border-radius: 5px;
+}
+
+.arrow {
+    padding-left: 175px;
+}
+
+.arrow img {
+    width: 20px;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+li:before {
+    content: "\003E";
+    font-size: 20px;
+}
+li a{ text-decoration: none; margin-bottom: 10px; }
+
+.accountant {
+    margin: 20px 0 -5px 0;
+}
+
+.form {
+    border: 1px dashed #d1d1d1;
+    padding: 20px;
+    background: #f8f8f8;
+    margin: 5% 0 0 0;
+}
+
+.form input, .form select {
+    display: block;
+    padding: 8px;
+    border: 1px solid #d1d1d1;
+    margin: 0 5px 10px 0;
+    border-radius: 5px;
+}
+
+.form input[type=checkbox]{
+    display: inline;
+}
+
+.submit {
+    padding: 8px 30px !important;
+    background: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.submit:hover {
+    border: 1px solid #b3c2cd;
+}
